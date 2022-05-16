@@ -44,4 +44,20 @@ public class Lote {
 	public String toString() {
 		return "Lote ID: " + getId() + " - Produto: " + getProduto().getNome() + " - " + getQuantidade() + " itens";
 	}
+
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+
+	public void setQuantidade(Long quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	public void setDataFabricacao(Date dataFabricacao) {
+		this.dataFabricacao = dataFabricacao;
+	}
+
+	public void setDataValidade(Date dataValidade) {
+		this.dataValidade = dataValidade;
+	}
 }
